@@ -349,7 +349,11 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Bomba.cs"
+"Assets/Scripts/Disparador.cs"
+"Assets/Scripts/DisparadorAutomatico.cs"
 "Assets/Scripts/MovimientoContinuo.cs"
+"Assets/Scripts/MovimientoPersonaje.cs"
 "Assets/Scripts/RotacionContinua.cs"
 -langversion:9.0
 
