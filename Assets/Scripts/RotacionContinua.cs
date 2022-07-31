@@ -5,11 +5,11 @@ using UnityEngine;
 public class RotacionContinua : MonoBehaviour
 {
     [SerializeField]
-    float velocidadX;
+    private float velocidadX;
     [SerializeField]
-    float velocidadY;
+    private float velocidadY;
     [SerializeField]
-    float velocidadZ;
+    private float velocidadZ;
 
    
     void Update()

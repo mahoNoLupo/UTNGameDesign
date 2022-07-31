@@ -58,6 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\RotacionContinua.cs" />
     <Compile Include="Assets\Scripts\MovimientoContinuo.cs" />
+    <Compile Include="Assets\Scripts\Disparador.cs" />
+    <Compile Include="Assets\Scripts\DisparadorAutomatico.cs" />
+    <Compile Include="Assets\Scripts\Bomba.cs" />
+    <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
