@@ -62,6 +62,8 @@
     <Compile Include="Assets\Scripts\DisparadorAutomatico.cs" />
     <Compile Include="Assets\Scripts\MovimientoContinuo.cs" />
     <Compile Include="Assets\Scripts\Disparador.cs" />
+    <Compile Include="Assets\Scripts\GeneradorOleadas.cs" />
+    <Compile Include="Assets\Scripts\DestructorTemporizado.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
