@@ -8,6 +8,10 @@ public class Disparador : MonoBehaviour
     private GameObject prefab;
     [SerializeField]
     private string nombreAccion;
+    [SerializeField]
+    private float timeToInvoke;
+    [SerializeField]
+    private float repeatTime;
     void Start()
     {
 
@@ -16,14 +20,18 @@ public class Disparador : MonoBehaviour
 
     void Update()
     {
-        shoot(prefab, nombreAccion);
+        if (Input.GetButtonDown(nombreAccion))
+        {
+            InvokeRepeating("Shoot", timeToInvoke, repeatTime);
+        }
+        if (Input.GetButtonUp(nombreAccion))
+        {
+            CancelInvoke();
+        }
     }
 
-    private void shoot(GameObject pf, string action)
+    private void Shoot()
     {
-        if (Input.GetButton(action))
-        {
-            Instantiate(pf, transform.position, transform.rotation);
-        }
+        Instantiate(prefab, transform.position, transform.rotation);
     }
 }
